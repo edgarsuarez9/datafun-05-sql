@@ -151,6 +151,9 @@ VALUES
     ('be951205-6cc2-4b3d-96f1-7257b8fc8c0f', 'The Hobbit', 1937, '16f3e0a1-24cb-4ed6-a50)
 ```
 
+![Alt text](C:/Users/Edgar/OneDrive/Desktop/insertquery.png)
+
+
 ### Function read CSV data from CSV files and insert Data into SQLite database. 
 
 This function automates the process of populating the authors and books tables in a SQLite database with data from CSV files. It uses the efficiency of pandas for reading CSVs and inserting the data directly into the database, while also ensuring robust error handling for common issues that may arise during the process.
@@ -240,6 +243,7 @@ WHERE author_id = 'c1aef7cf-62f4-4f87-a775-f563f0308d64';  -- Deletes Agatha Chr
 DELETE FROM books
 WHERE title = '1984';  -- Deletes the book "1984"
 ```
+
 ### Group By 
 
 This query identifies authors who have authored multiple books, providing their author_id and the corresponding count of books.
@@ -250,7 +254,7 @@ FROM books
 GROUP BY author_id 
 HAVING COUNT(*) > 1;  -- Authors with more than one book
 ```
-
+![Logging Screenshot](images/logging.png)
 
 ## How to Import Dependencies
 
