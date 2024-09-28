@@ -1,0 +1,67 @@
+2024-09-28 00:58:53,203 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 00:58:53,205 - ERROR - Error executing SQL from sql\update_records.sql: [Errno 2] No such file or directory: 'sql\\update_records.sql'
+2024-09-28 00:58:53,206 - ERROR - Error executing SQL from sql\delete_records.sql: [Errno 2] No such file or directory: 'sql\\delete_records.sql'
+2024-09-28 00:58:53,207 - ERROR - Error executing SQL from sql\query_aggregation.sql: [Errno 2] No such file or directory: 'sql\\query_aggregation.sql'
+2024-09-28 00:58:53,208 - ERROR - Error executing SQL from sql\query_filter.sql: [Errno 2] No such file or directory: 'sql\\query_filter.sql'
+2024-09-28 00:58:53,208 - ERROR - Error executing SQL from sql\query_sorting.sql: [Errno 2] No such file or directory: 'sql\\query_sorting.sql'
+2024-09-28 00:58:53,210 - ERROR - Error executing SQL from sql\query_group_by.sql: [Errno 2] No such file or directory: 'sql\\query_group_by.sql'
+2024-09-28 00:58:53,211 - ERROR - Error executing SQL from sql\query_join.sql: [Errno 2] No such file or directory: 'sql\\query_join.sql'
+2024-09-28 00:58:53,211 - INFO - Program ended
+2024-09-28 00:59:37,043 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 00:59:37,044 - ERROR - Error executing SQL from sql\update_records.sql: [Errno 2] No such file or directory: 'sql\\update_records.sql'
+2024-09-28 00:59:37,045 - ERROR - Error executing SQL from sql\delete_records.sql: [Errno 2] No such file or directory: 'sql\\delete_records.sql'
+2024-09-28 00:59:37,045 - ERROR - Error executing SQL from sql\query_aggregation.sql: [Errno 2] No such file or directory: 'sql\\query_aggregation.sql'
+2024-09-28 00:59:37,046 - ERROR - Error executing SQL from sql\query_filter.sql: [Errno 2] No such file or directory: 'sql\\query_filter.sql'
+2024-09-28 00:59:37,047 - ERROR - Error executing SQL from sql\query_sorting.sql: [Errno 2] No such file or directory: 'sql\\query_sorting.sql'
+2024-09-28 00:59:37,048 - ERROR - Error executing SQL from sql\query_group_by.sql: [Errno 2] No such file or directory: 'sql\\query_group_by.sql'
+2024-09-28 00:59:37,049 - ERROR - Error executing SQL from sql\query_join.sql: [Errno 2] No such file or directory: 'sql\\query_join.sql'
+2024-09-28 00:59:37,049 - INFO - Program ended
+2024-09-28 01:02:46,511 - INFO - Folder already exists: sql
+2024-09-28 01:02:46,512 - INFO - Folder already exists: data
+2024-09-28 01:02:46,512 - INFO - Folder already exists: data
+2024-09-28 01:02:46,512 - INFO - Database already exists.
+2024-09-28 01:02:46,545 - INFO - Tables created successfully.
+2024-09-28 01:02:46,605 - INFO - Data inserted successfully.
+2024-09-28 01:03:14,958 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 01:03:14,960 - ERROR - Error executing SQL from sql\update_records.sql: [Errno 2] No such file or directory: 'sql\\update_records.sql'
+2024-09-28 01:03:14,960 - ERROR - Error executing SQL from sql\delete_records.sql: [Errno 2] No such file or directory: 'sql\\delete_records.sql'
+2024-09-28 01:03:14,961 - ERROR - Error executing SQL from sql\query_aggregation.sql: [Errno 2] No such file or directory: 'sql\\query_aggregation.sql'
+2024-09-28 01:03:14,962 - ERROR - Error executing SQL from sql\query_filter.sql: [Errno 2] No such file or directory: 'sql\\query_filter.sql'
+2024-09-28 01:03:14,962 - ERROR - Error executing SQL from sql\query_sorting.sql: [Errno 2] No such file or directory: 'sql\\query_sorting.sql'
+2024-09-28 01:03:14,963 - ERROR - Error executing SQL from sql\query_group_by.sql: [Errno 2] No such file or directory: 'sql\\query_group_by.sql'
+2024-09-28 01:03:14,964 - ERROR - Error executing SQL from sql\query_join.sql: [Errno 2] No such file or directory: 'sql\\query_join.sql'
+2024-09-28 01:03:14,964 - INFO - Program ended
+2024-09-28 01:06:45,700 - INFO - Folder already exists: sql
+2024-09-28 01:06:45,701 - INFO - Folder already exists: data
+2024-09-28 01:06:45,701 - INFO - Folder already exists: data
+2024-09-28 01:06:45,701 - INFO - Database already exists.
+2024-09-28 01:06:45,742 - INFO - Tables created successfully.
+2024-09-28 01:06:45,802 - INFO - Data inserted successfully.
+2024-09-28 01:07:07,043 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 01:07:07,045 - ERROR - Error executing SQL from sql\update_records.sql: [Errno 2] No such file or directory: 'sql\\update_records.sql'
+2024-09-28 01:07:07,046 - ERROR - Error executing SQL from sql\delete_records.sql: [Errno 2] No such file or directory: 'sql\\delete_records.sql'
+2024-09-28 01:07:07,046 - ERROR - Error executing SQL from sql\query_aggregation.sql: [Errno 2] No such file or directory: 'sql\\query_aggregation.sql'
+2024-09-28 01:07:07,047 - ERROR - Error executing SQL from sql\query_filter.sql: [Errno 2] No such file or directory: 'sql\\query_filter.sql'
+2024-09-28 01:07:07,048 - ERROR - Error executing SQL from sql\query_sorting.sql: [Errno 2] No such file or directory: 'sql\\query_sorting.sql'
+2024-09-28 01:07:07,049 - ERROR - Error executing SQL from sql\query_group_by.sql: [Errno 2] No such file or directory: 'sql\\query_group_by.sql'
+2024-09-28 01:07:07,050 - ERROR - Error executing SQL from sql\query_join.sql: [Errno 2] No such file or directory: 'sql\\query_join.sql'
+2024-09-28 01:07:07,050 - INFO - Program ended
+2024-09-28 01:09:04,572 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 01:09:04,574 - ERROR - Error executing SQL from sql\update_records.sql: [Errno 2] No such file or directory: 'sql\\update_records.sql'
+2024-09-28 01:09:04,575 - ERROR - Error executing SQL from sql\delete_records.sql: [Errno 2] No such file or directory: 'sql\\delete_records.sql'
+2024-09-28 01:09:04,576 - ERROR - Error executing SQL from sql\query_aggregation.sql: [Errno 2] No such file or directory: 'sql\\query_aggregation.sql'
+2024-09-28 01:09:04,576 - ERROR - Error executing SQL from sql\query_filter.sql: [Errno 2] No such file or directory: 'sql\\query_filter.sql'
+2024-09-28 01:09:04,577 - ERROR - Error executing SQL from sql\query_sorting.sql: [Errno 2] No such file or directory: 'sql\\query_sorting.sql'
+2024-09-28 01:09:04,579 - ERROR - Error executing SQL from sql\query_group_by.sql: [Errno 2] No such file or directory: 'sql\\query_group_by.sql'
+2024-09-28 01:09:04,580 - ERROR - Error executing SQL from sql\query_join.sql: [Errno 2] No such file or directory: 'sql\\query_join.sql'
+2024-09-28 01:09:04,580 - INFO - Program ended
+2024-09-28 02:19:17,101 - INFO - Executed SQL from sql\create_tables.sql
+2024-09-28 02:19:17,119 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 02:19:17,120 - ERROR - Error executing SQL from sql\update_records.sql: no such column: last
+2024-09-28 02:19:17,122 - INFO - Executed SQL from sql\delete_records.sql
+2024-09-28 02:19:17,123 - INFO - Executed SQL from sql\query_aggregation.sql
+2024-09-28 02:19:17,125 - ERROR - Error executing SQL from sql\query_filter.sql: no such column: last
+2024-09-28 02:19:17,126 - ERROR - Error executing SQL from sql\query_sorting.sql: no such column: last
+2024-09-28 02:19:17,126 - INFO - Executed SQL from sql\query_group_by.sql
+2024-09-28 02:19:17,128 - ERROR - Error executing SQL from sql\query_join.sql: no such column: a.first
+2024-09-28 02:19:17,128 - INFO - Program ended
