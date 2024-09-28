@@ -1,3 +1,5 @@
+'''This script executes 9 SQL files against a SQLite Database. The script also includes the logging feature.'''
+
 import sqlite3
 import pathlib
 import logging

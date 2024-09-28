@@ -1,3 +1,5 @@
+'''This script sets up an SQLite database, creates necessary tables, and inserts data from CSV files.'''
+
 import sqlite3
 import pathlib
 import logging
