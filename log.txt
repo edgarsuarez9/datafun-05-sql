@@ -65,3 +65,13 @@
 2024-09-28 02:19:17,126 - INFO - Executed SQL from sql\query_group_by.sql
 2024-09-28 02:19:17,128 - ERROR - Error executing SQL from sql\query_join.sql: no such column: a.first
 2024-09-28 02:19:17,128 - INFO - Program ended
+2024-09-28 10:46:55,790 - INFO - Executed SQL from sql\create_tables.sql
+2024-09-28 10:46:55,802 - INFO - Executed SQL from sql\insert_records.sql
+2024-09-28 10:46:55,803 - INFO - Executed SQL from sql\update_records.sql
+2024-09-28 10:46:55,804 - INFO - Executed SQL from sql\delete_records.sql
+2024-09-28 10:46:55,805 - INFO - Executed SQL from sql\query_aggregation.sql
+2024-09-28 10:46:55,805 - INFO - Executed SQL from sql\query_filter.sql
+2024-09-28 10:46:55,806 - INFO - Executed SQL from sql\query_sorting.sql
+2024-09-28 10:46:55,807 - INFO - Executed SQL from sql\query_group_by.sql
+2024-09-28 10:46:55,808 - INFO - Executed SQL from sql\query_join.sql
+2024-09-28 10:46:55,808 - INFO - Program ended

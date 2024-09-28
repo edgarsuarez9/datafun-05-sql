@@ -1,6 +1,6 @@
 UPDATE authors
-SET last = 'Hemingway-Updated'
-WHERE first = 'Ernest';
+SET last_name = 'Hemingway-Updated'
+WHERE first_name = 'Ernest';
 
 UPDATE books
 SET year_published = 1955
