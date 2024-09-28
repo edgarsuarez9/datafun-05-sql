@@ -6,6 +6,21 @@ This project utilizes Python and SQL to work on database interations.
 The project uses SQLite, introduces logging (a tool for debugging and monitoring projects). 
 The project creates and manages a database while performing various SQL operations. 
 
+## How to Import Dependencies
+
+Create a file in the root folder of your repo (same level as the README.md) named requirements.txt with the following content. 
+
+Install the packages listed in the requirements file with this command:
+
+pandas
+pyarrow
+
+```
+py -m pip install -r requirements.txt
+```
+
+I created the requirement.txt. I then input the depenedies in the file, one per line. From there I used option 3, or, py -m pip install -r requirements.txt
+
 ## Commands Used
 
 ```
@@ -118,6 +133,18 @@ def main():
 
 ## Records
 
+Implement SQL statements and queries to perform additional operations and use Python to execute your SQL statements.
+
+create_tables.sql - create your database schema using sql
+insert_records.sql - insert at least 10 additional records into each table.
+update_records.sql - update 1 or more records in a table.
+delete_records.sql - delete 1 or more records from a table.
+query_aggregation.sql - use aggregation functions including COUNT, AVG, SUM.
+query_filter.sql - use WHERE to filter data based on conditions.
+query_sorting.sql - use ORDER BY to sort data.
+query_group_by.sql - use GROUP BY clause (and optionally with aggregation)
+query_join.sql - use INNER JOIN operation and optionally include LEFT JOIN, RIGHT JOIN, etc.
+
 ### Records creation
 
 The following code was use to insert books and authors into their corresponding tables. 
@@ -151,7 +178,7 @@ VALUES
     ('be951205-6cc2-4b3d-96f1-7257b8fc8c0f', 'The Hobbit', 1937, '16f3e0a1-24cb-4ed6-a50)
 ```
 
-![Alt text](C:/Users/Edgar/OneDrive/Desktop/insertquery.png)
+![Screenshot of my project](images/insertquery.png)
 
 
 ### Function read CSV data from CSV files and insert Data into SQLite database. 
@@ -254,19 +281,49 @@ FROM books
 GROUP BY author_id 
 HAVING COUNT(*) > 1;  -- Authors with more than one book
 ```
-![Logging Screenshot](images/logging.png)
 
-## How to Import Dependencies
+## Logging
 
-Create a file in the root folder of your repo (same level as the README.md) named requirements.txt with the following content. 
+Logging is recommended for most professional projects. Implement logging to enhance debugging and maintain a record of program execution.
 
-Install the packages listed in the requirements file with this command:
-
-pandas
-pyarrow
+Configure logging to write to a file named log.txt.
+Log the start of the program using logging.info().
+Log the end of the program using logging.info().
+Log exceptions using logging.exception().
+Log other major events using logging.info().
+Log the start and end of major functions using logging.debug().
 
 ```
-py -m pip install -r requirements.txt
-```
+import logging
 
-I created the requirement.txt. I then input the depenedies in the file, one per line. From there I used option 3, or, py -m pip install -r requirements.txt
+# Configure logging to write to a file, appending new logs to the existing file
+logging.basicConfig(filename='log.txt', level=logging.DEBUG, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s')
+
+logging.info("Program started") # add this at the beginning of the main method
+logging.info("Program ended")  # add this at the end of the main method
+```
+![Screenshot of my project](images/Logging.png)
+
+## Schema 
+
+Designed with two related tables, including foreign key constraints.
+
+```
+import sqlite3
+import pathlib
+import pandas as pd
+
+# Your code here....
+# Define paths...
+# Define functions...
+
+# Define the main function that will call your functions
+def main():
+    paths_to_verify = [sql_file_path, author_data_path, book_data_path]
+    verify_and_create_folders(paths_to_verify)
+    
+    create_database(db_file_path)
+    create_tables(db_file_path, sql_file_path)
+    insert_data_from_csv(db_file_path, author_data_path, book_data_path)
+```
+![Screenshot of my project](images/projectscreenshot.png)
